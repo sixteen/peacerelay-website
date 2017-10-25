@@ -1,0 +1,14 @@
+.footer {
+  height: 8rem;
+  border-top: 2px solid $light-grey;
+}
+.footer .container {
+  height: 100%;
+}
+.footer-body {
+  height: 100%;
+
+  @include flex();
+  @include align-center();
+  @include justify-between();
+}

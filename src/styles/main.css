@@ -975,7 +975,7 @@
 .hero-content {
   font-size: 2rem;
   height: 100%;
-  color: #FFFFFF;
+  color: #ffffff;
   position: relative;
   z-index: 1;
   display: flex;
@@ -988,6 +988,19 @@
 .section-heading {
   color: #c0c0c0;
   text-align: center; }
+
+.footer {
+  height: 8rem;
+  border-top: 2px solid #e8e8e8; }
+
+.footer .container {
+  height: 100%; }
+
+.footer-body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
 
 html, body {
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue";
