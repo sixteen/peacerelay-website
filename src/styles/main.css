@@ -954,9 +954,13 @@
   align-items: center;
   justify-content: space-between; }
 
+.logo {
+  font-weight: bold;
+  font-size: 2rem; }
+
 .hero {
   height: 50rem;
-  background-image: url("../images/hero.jpg");
+  background-image: url("https://static1.squarespace.com/static/59a0217bd482e9fbddf879fd/t/59c3ccc2e5dd5b1f8f6e9513/1504003881318/shutterstock_441506311-1.jpg?format=2500w");
   background-size: cover;
   position: relative; }
 
@@ -989,6 +993,14 @@
   color: #c0c0c0;
   text-align: center; }
 
+.navigation {
+  display: flex;
+  list-style-type: none;
+  font-size: 1.6rem; }
+
+.navigation li + li {
+  margin-left: 2rem; }
+
 .footer {
   height: 8rem;
   border-top: 2px solid #e8e8e8; }
@@ -1001,6 +1013,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between; }
+
+.footer-icon {
+  height: 3rem; }
 
 html, body {
   font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue";

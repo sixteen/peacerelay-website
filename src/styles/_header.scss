@@ -11,3 +11,7 @@
   @include align-center();
   @include justify-between();
 }
+.logo {
+  font-weight: bold;
+  font-size: 2rem;
+}

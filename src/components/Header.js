@@ -6,10 +6,10 @@ class Header extends Component {
       <div className="header">
         <div className="container">
           <div className="header-body">
-            <span>PeaceRelay</span>
+            <span className="logo">PeaceRelay</span>
             <ul className="navigation">
               <li>Documentation</li>
-              <li>Minter</li>
+              <li>ETCMinter</li>
               <li>FAQ</li>
             </ul>
           </div>
