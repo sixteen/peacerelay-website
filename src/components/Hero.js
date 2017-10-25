@@ -7,6 +7,7 @@ class Hero extends Component {
         <div className="container">
           <div className="hero-content">
             <h1>Connecting the many Ethereum Blockchains</h1>
+            <h2>Allowing communication between two different Ethereum blockchains to allow trading ETH / ETC trading.</h2>
           </div>
         </div>
       </div>
