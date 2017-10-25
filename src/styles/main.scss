@@ -1,0 +1,17 @@
+$white: #FFFFFF;
+
+@import "flex";
+@import "header";
+@import "hero";
+@import "section";
+
+html, body {
+  font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue";
+  font-size: 10px;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
